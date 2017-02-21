@@ -1,0 +1,15 @@
+{
+    "name": "boskee/teamseer",
+    "description": "TeamSeer PHP API",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "ext-soap": "*"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Boskee\\TeamSeer\\": "src"
+        }
+    },
+    "license": "MIT"
+}
